@@ -4,11 +4,15 @@
     box-sizing: border-box;
     color: white;
 }
+.headerlogo{
+    height: 79px;
+    width: 92;
+}
 .headerBar {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    background-color: #2C3E50;
+    justify-content: space-between;
+    background-color: #1F2937;
     height: 80px;
 }
 h2{
@@ -21,6 +25,12 @@ span{
 h4{
     color: white;
     padding-right: 15px;
+    margin-right: 2px;
+    
+}
+h4:hover{
+    border: 1px solid white;
+    border-radius: 10%;
 }
 .firstDiv{
     background-color: #2C3E50;
@@ -30,7 +40,12 @@ h4{
     justify-content: center;
     gap: 5px;
 }
-.innerDiv{
+.headingimg{
+    height: 350px;
+    width: 600px;
+    
+}
+.innerDiv1{
     background-color: #2C3E50;
     height: 300px;
     width: 500px;
@@ -38,13 +53,66 @@ h4{
     justify-content: space-evenly;
     align-items: flex-start;
     flex-direction: column;
+
+}
+.innerDiv2 {
+    background-color: #2C3E50;
+    height: 300px;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     
+
+}
+.cardContainer {
+    background-color: white;
+    height: 400px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px
+
+
+}
+.innerCardContainer {
+    background-color: white;
+    height: 300px;
+    width: 95%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+.cardimage{
+    border: px solid #3882F6 ;
+    height: 131px;
+    width: 200px;
+}
+.cards {
+    display: flex;
+    height: 284px;
+    width: 200px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+
+
+}
+.cards:hover{
+    background-color:#1e69d184;;
 }
 .buttonblue{
-    background-color: rgb(55, 55, 226);
-    border-radius: 10%;
-    height: 40px;
-    width: 60px;
+    background-color: #3882F6;
+    border-radius: 6px;
+    height: 33px;
+    width: 99px;
+    border-color: white;
 }
 
 .ptag{
@@ -52,4 +120,37 @@ h4{
     font-size: large;
     margin-left: 10px;
     margin-right: 10px;
+}
+.quoteContainer{
+ height: 400px;
+ background-color: #e5e7eb;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+
+}
+.signupUpperCard{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+
+}
+.signUpCard{
+    height: 100px;
+    width: 80%;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer{
+    background-color: #2C3E50;
+    padding: 20px;
+    height: 100px;
 }
