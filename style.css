@@ -147,6 +147,7 @@ h4:hover{
     justify-content: space-evenly;
     align-items: center;
     gap: 30px;
+    border-radius: 10px;
 }
 
 .footer{
